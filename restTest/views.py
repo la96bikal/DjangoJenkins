@@ -2,6 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 # Create your views here.
 # Hey just a comment
+#another comment for test
+
 def hello(request, id):
 	a = id
 	b = ''
