@@ -25,7 +25,7 @@ SECRET_KEY = '(gy_2lw7w8ecx2r3gx0k#0ii@bv(kga+-h-x-v#&e3oa4r#2=k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["adionoso.azurewebsites.net"]
 
 
 # Application definition
