@@ -1,5 +1,9 @@
 FROM python
 
+EXPOSE 8080
+
+ENV LISTEN_PORT=8080
+
 ENV PYTHONUNBUFFERED 1
 
 WORKDIR /app
@@ -12,4 +16,4 @@ RUN pip install -r requirements.txt
 
 COPY . /app
 
-EXPOSE 8080
+
